@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import JokesContainer from './components/JokesContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header">Some jokes to laugh it off... why not?</header>
+        {/* Exercise for us to try all together in the end */}
+        {/* add a button that on click will toggle the state of a variable */}
+        {/* if the state variable is true(hy), render a Timer component (TBCreated) */}
+        {/* if the state variable is false(y), render nothing */}
+        <JokesContainer />
     </div>
   );
 }
