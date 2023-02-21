@@ -3,7 +3,8 @@
 1. Understand what a side effect is
 2. Understand the component's lifecycle
 3. Observe how to correctly use useEffect to perform side effects
-4. Class Exercise: practice using useEffect and performing a cleanup
+
+*** Breakout Room Exercise: practice using useEffect and performing a cleanup ***
 
 
 # Lecture Structure

@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Joke from './Joke'
 
-const Jokes = ({jokes = []}) => {
+const Jokes = ({jokes=[]}) => {
     const [slideId, setSlideId] = useState(0)
-    const mappedJokes = [].map(joke => <Joke key={joke.id} {...joke} />)
+    const mappedJokes = jokes.map(joke => <Joke key={joke.id} {...joke} />)
 
     return (
         <>

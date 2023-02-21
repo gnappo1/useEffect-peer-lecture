@@ -16,6 +16,7 @@
 - callback notes: sync or async? Invoke fetch function inside or pass as argument
 - deps notes: has to be there? has to be empty? how does it relate to the component lifecycle/sync with props&state?
 - deps: If you only use some functions inside an effect, move them directly into that effect. Then you don't have to list them in the deps array.
+- cleanup: when do we need it?
 
 5. RECAP: 
 - useEffect is in sync with lifecycle: after birth, after evolutions, before death. Different than interactive with React's Synthetic Event System.
